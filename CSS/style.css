@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Netflix Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Regular'), url('../fonts/NetflixSansRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Netflix Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Medium'), url('../fonts/NetflixSansMedium.woff') format('woff');
+    }
+
+body{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-family: "Netflix Sans Medium";
+    font-size: 3.15em;
+    font-weight: normal;
+}
+p{
+    font-family: "Netflix Sans Regular";
+    font-size: 1.2em;
+}
+#div-header{
+    border-bottom: 8px solid #222;
+    margin-bottom: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+    margin-top: -8px;
+}
+#bg-img{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+#bg-img img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+#bg-gradient{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,.8) 0,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 70%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    z-index: -1;
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 2;
+    padding-top: 30px;
+}
+#icon-lang{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+#lang{
+    border: none;
+    background-color: rgb(0, 0, 0, 0);
+    color:#fff;
+    vertical-align: middle;
+}
+#select-lang{
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    max-width: max-content;
+    height: 20px;
+    padding: 8px;
+    padding-top: 8px;
+    border-radius: 3px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 225px;
+    margin-right: 30px;
+}
+#logo{
+    width: 125px;
+    height: 38px;
+    padding-left: 42px;
+}
+#btn-login{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e50914;
+    height: 18px;
+    border: none;
+    border-radius: 3px;
+}
+#btn-login a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05em;
+    color: white;
+}
+#text-main{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 160px;
+}
+#registro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 623px;
+    margin: auto;
+}
+#email{
+    width: 400px;
+    padding: 17px;
+    font-size: 1.1em;
+}
+#vamos-la{
+    width: 190px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-size: 1.6em;
+}
+#vamos-la:hover{
+    background-color: #df101b;
+    cursor: pointer;
+}
+/* segunda parte */
+#text-second{
+    width:  600px;
+    margin-left: 140px;
+}
+#title-second{
+    font-weight: 500;
+}
+#text2{
+    font-size: 1.65em;
+}
+#box-tv{
+    float: right;
+    position: relative;
+    z-index: 1;
+    width: 640px;
+    height: 480px;
+}
+#tv{
+    z-index: 3;
+    position: absolute;
+}
+#in-tv{
+    position: absolute;
+    z-index: 2;
+    top: 98px;
+    left: 78px;
+}
